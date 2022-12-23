@@ -1,0 +1,135 @@
+/* step 0  */
+
+/* problem statement creating given png ui style using boxes and position property */
+
+/* height x width of main & small boxes has been defined */
+
+/* step 1 */
+
+/* defining dimensions of main boxes */
+
+.main-box {
+  height: 50%;
+  width: 50%;
+}
+
+/* step 2 */
+
+/* defining dimension and border of small boxes */
+
+.small-box {
+  height: 50px;
+  width: 50px;
+  border: 2px solid white;
+}
+
+/* step 3 */
+
+/* Consider main top-left box  */
+
+/* position fixed and move box 2 towards top right */
+
+#main-top-left {
+  background-color: #ccc;
+  position: fixed;
+  left: 0%;
+}
+
+#b1 {
+  background-color: red;
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  left: 0%;
+}
+
+#b2 {
+  background-color: orange;
+  height: 50px;
+  width: 50px;
+  float: right;
+  border: 2px solid white;
+}
+
+/* step 4 */
+
+/* Consider main top-right box  */
+
+/* position fixed and move box 4 towards top right corner & box 3 to bottom left corner */
+
+#main-top-right {
+  background-color: #e86f88;
+  position: fixed;
+  right: 0%;
+}
+
+#b3 {
+  background-color: steelblue;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+}
+
+#b4 {
+  background-color: blue;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
+
+/* step 5 */
+
+/* Consider main bottom-left box  */
+
+/* position fixed and move box 5 towards top left corner & box 6 to bottom right corner */
+
+#main-bottom-left {
+  background-color: #79badb;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  top: 50%;
+}
+
+#b5 {
+  background-color: purple;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+#b6 {
+  background-color: coral;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+}
+
+/* step 6 */
+
+/* Consider main bottom-right box  */
+
+/* position fixed and move box 7 towards bottom left corner & box 8 to bottom right corner */
+
+#main-bottom-right {
+  background-color: #a2dbb1;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+}
+
+#b7 {
+  background-color: grey;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+}
+
+#b8 {
+  background-color: red;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+}
+
+/* ---------------------------------THE END------------------------------------- */
