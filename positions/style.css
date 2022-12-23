@@ -1,0 +1,100 @@
+.main-box {
+  height: 50px;
+  width: 50px;
+}
+
+#main-top-left {
+  background-color: #ccc;
+  position: fixed;
+  left: 0%;
+}
+
+#main-top-right {
+  background-color: #e86f88;
+  position: fixed;
+  right: 0%;
+}
+
+#main-bottom-left {
+  background-color: #79badb;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  top: 0%;
+}
+
+#main-bottom-right {
+  background-color: #a2dbb1;
+}
+
+.small-box {
+  height: 50px;
+  width: 50px;
+  border-style: solid 2px white;
+}
+
+#b1 {
+  background-color: red;
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  left: 0%;
+  border: 2px solid white;
+}
+
+#b2 {
+  background-color: orange;
+  background-color: orange;
+  height: 50px;
+  width: 50px;
+  float: right;
+  border: 2px solid white;
+}
+
+#b3 {
+  background-color: steelblue;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  border: 2px solid white;
+}
+
+#b4 {
+  background-color: coral;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  border: 2px solid white;
+}
+
+#b5 {
+  background-color: blue;
+}
+
+#b6 {
+  background-color: purple;
+}
+
+#b7 {
+  background-color: rgb(220, 20, 60);
+}
+
+#b8 {
+  background-color: grey;
+}
+
+#b1 {
+  background-color: red;
+}
+
+#b2 {
+  background-color: orange;
+  height: 50px;
+  width: 50px;
+  float: right;
+  border: 2px solid white;
+}
